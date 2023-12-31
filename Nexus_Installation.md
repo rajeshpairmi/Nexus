@@ -7,7 +7,7 @@
 - tar -xzvf nexus-3.45.0-01-unix.tar.gz
 - mv nexus-3.45.0-01 /opt/nexus # This helps in creating a shortcut object for version to nexus
 ## step2: Install java 
-- sudo yum install <java> -y
+- sudo yum install java -y
 ## step3: add nexus user to perform the operations, provide sudo permissions and assign directory ownership of /opt/nexus and /opt/sonatype folders.
 - userad nexus # create nexus user along with home directory
 - /etc/sudoers
